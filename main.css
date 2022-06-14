@@ -1,1 +1,67 @@
-/* write styles here */
+.navbar {
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+display: inline-block;
+text-align: center;
+background-color: white;
+font-size: 0;
+height:60px;
+overflow: hidden;
+}
+
+.nav_icon {
+    height:45px;
+    width:50px ;
+    position: relative;
+    bottom: 10px;
+    
+}
+.search_icon {
+    height:13px;
+    width:13px ;
+    padding-right: 10px;
+}
+.search_bar {
+    bottom: 29px;
+    display: inline-block;
+    position: relative;
+    
+    margin: 10px 240px 10px 10px;
+    padding: 10px 70px 10px 10px;
+    
+    background-color: #EEF3F8;
+    border-radius: 7px;
+}
+.search_bar input {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font-family:'Trebuchet MS', ;
+    font-size: medium;
+}
+body {
+    background-color: #F3F2EF;
+    margin: 0;
+}
+.nav_items {
+    display: inline-block;
+    position: relative;
+    bottom:3px;
+    padding:10;
+}
+.nav_items img{
+    
+    margin:2px;
+    padding-left: 10px;
+    padding-right:10px
+}
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
